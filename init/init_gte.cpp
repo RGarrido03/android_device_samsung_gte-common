@@ -51,6 +51,11 @@ void init_target_properties(void)
 		model = (char *)"SM-T550";
 		set_wifi_properties();
 	}
+	else if (bootloader.find("T555") == 0) {
+		device = (char *)"gt510lte";
+		model = (char *)"SM-T555";
+		set_wifi_properties();
+	}
 	else if (bootloader.find("T350") == 0) {
 		device = (char *)"gt58wifi";
 		model = (char *)"SM-T350";
