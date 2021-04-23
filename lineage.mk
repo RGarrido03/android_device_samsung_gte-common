@@ -5,7 +5,7 @@ PRODUCT_RELEASE_NAME := Samsung Galaxy Tab A
 TARGET_SCREEN_WIDTH := 768
 TARGET_SCREEN_HEIGHT := 1024
 
-# Inherit some common CM stuff.
+# Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from those products. Most specific first.

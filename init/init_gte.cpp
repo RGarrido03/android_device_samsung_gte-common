@@ -54,7 +54,7 @@ void init_target_properties(void)
 	else if (bootloader.find("T555") == 0) {
 		device = (char *)"gt510lte";
 		model = (char *)"SM-T555";
-		set_wifi_properties();
+		set_lte_properties();
 	}
 	else if (bootloader.find("T350") == 0) {
 		device = (char *)"gt58wifi";
