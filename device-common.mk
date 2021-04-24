@@ -47,10 +47,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
 
 # RIL
-PRODUCT_PACKAGES += \
-    libril \
-    librilutils \
-    rild
+#PRODUCT_PACKAGES += \
+#    libril \
+#    librilutils \
+#    rild
 
 # append the updater uri to the product properties if set
 ifneq ($(CM_UPDATER_OTA_URI),)
